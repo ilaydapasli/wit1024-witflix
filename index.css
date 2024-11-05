@@ -15,17 +15,16 @@ h1{
     flex:1;
 
 }
-.search-icon{
-    margin-left: -2rem;
-}
+
 h2{
     text-transform: uppercase;
 }
 .fa-solid,.fa-regular{
     color:red;
 }
-.imdbScore{
-    font-weight: bold;
+.search-icon{
+    margin-left: -2rem;
+    color: black;
 }
 
  header .user-panel{
@@ -51,6 +50,7 @@ header .user-panel img{
     padding: .3rem;
     width: 7rem;
     border-radius: .5rem;
+    margin-right: .3rem;
 }
 main{
     aspect-ratio: 5/3;
@@ -60,6 +60,10 @@ main{
     display: flex;  
     align-items: center;
     
+}
+
+.imdbScore{
+    font-weight: bold;
 }
 .movie-details span{
     color: red;
