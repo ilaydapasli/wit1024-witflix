@@ -1,0 +1,81 @@
+body{
+    
+    margin: 0;
+    padding: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+h1{
+    color: red;
+    margin: 0;
+
+}
+h2{
+    text-transform: uppercase;
+}
+.fa-solid,.fa-regular{
+    color:red;
+}
+.imdbScore{
+    font-weight: bold;
+}
+
+ .user-panel{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header nav{
+    display: flex;
+    gap: 0.5rem;
+}
+header nav a{
+    color: rgb(73, 72, 72);
+    text-decoration: none;
+}
+header .user-panel img{
+    border-radius: 100px;
+    width: 2.5rem;
+}
+.user-panel input{
+    padding: .3rem;
+    width: 7rem;
+    border-radius: .5rem;
+}
+main{
+    aspect-ratio: 5/3;
+    border: 1px solid black;
+    padding:1rem ;
+    margin: 2rem auto;
+    display: flex;
+    
+    align-items: center;
+    
+}
+.movie-details span{
+    color: red;
+    font-weight: bold;
+}
+.play-now-button{
+   color: white;
+   background: red;
+   padding: .8rem 1.7rem;
+   border-radius: 9px;
+   border: 1px solid;
+
+}
+.fa-solid{
+    color: white;
+}
+
+.main-movie{
+    width: 70%;
+    margin-top: 150px;
+    margin-bottom: 150PX;
+    
+
+}
