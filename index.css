@@ -12,7 +12,11 @@ header{
 h1{
     color: red;
     margin: 0;
+    flex:1;
 
+}
+.search-icon{
+    margin-left: -2rem;
 }
 h2{
     text-transform: uppercase;
@@ -24,10 +28,12 @@ h2{
     font-weight: bold;
 }
 
- .user-panel{
+ header .user-panel{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    flex: 1;
+    gap: .5rem;
+    justify-content: flex-end;
 }
 header nav{
     display: flex;
