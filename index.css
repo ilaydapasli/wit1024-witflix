@@ -19,6 +19,10 @@ h1{
 h2{
     text-transform: uppercase;
 }
+a:hover{
+    color: red;
+}
+
 .fa-solid,.fa-regular{
     color:red;
 }
@@ -106,3 +110,61 @@ button i{
     margin-left: -1rem;
     margin-right: .5rem;
 }
+
+/*suggestion*/
+
+.suggestion-row-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.suggestion-row-title a{
+    text-decoration: none;
+    color: gray;
+}
+.suggestion-row-title a:hover{
+    
+    color: red;
+}
+.suggestion-row-title h3{
+margin: 1rem;
+
+}
+.movie-card{
+    border: 1px solid black;
+    width:250px ;
+    border-radius: .1rem;
+    padding: 2rem 1rem;
+    display: flex;
+    align-items: center;
+}
+.movie-card h4{
+    margin: 1rem 0;
+}
+.movie-card .content-rating{
+    margin-left: 0;
+}
+.movie-detail-container{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.movie-card button{
+    
+    padding: .5rem 1.8rem;
+    border-radius: .5rem;
+    font-size: 1.2rem;
+ 
+ }
+
+.movie-card button i{
+    margin-left: -.8rem;
+    margin-right: .3rem;
+ }
+ .suggestion-movies{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+ }
