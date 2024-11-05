@@ -62,12 +62,13 @@ main{
 .movie-details p{
     margin: .5rem;
 }
-.play-now-button{
+button{
    color: white;
    background: red;
-   padding: .8rem 1.7rem;
+   padding: .6rem 2.1rem;
    border-radius: 9px;
    border: 1px solid;
+   font-size: 1.2rem;
 
 }
 .fa-play{
@@ -83,11 +84,15 @@ main{
 }
 .content-rating{
     border: 1px solid black;
-    padding: .1rem;
+    padding: .1rem ;
     border-radius: .3rem;
     margin: 0.5rem;
 }
 
 .movie-duration{
     font-weight: bold;
+}
+button i{
+    margin-left: -1rem;
+    margin-right: .5rem;
 }
