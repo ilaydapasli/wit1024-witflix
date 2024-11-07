@@ -172,13 +172,25 @@ margin: 1rem;
  /*footer*/
  footer{
     display: flex;
-    flex-direction: row;
-    align-items: center ;
-    justify-content: center;
-    text-align:left;
+    justify-content: space-between;
+    gap: 1rem;
+   
+ }
+ footer h5{
+    margin-top: 0;
+ }
+ footer .left-content .info nav{
+    display: flex;
+    gap: 1rem;
+ }
+ .right-content {
+    min-width: 200px;
  }
  .right-content img{
     height: 3rem;
     width: 9rem;
     border-radius: 11px;
+ }
+ .middle-content{
+min-width: 120px;
  }
