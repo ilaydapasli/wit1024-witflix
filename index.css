@@ -224,4 +224,14 @@ min-width: 120px;
         flex-wrap: wrap;
        text-align: center;
     }
+    footer nav{
+        justify-content: center;
+    }
+    .middle-content,.right-content{
+        width: 100%;
+        text-align: center;
+    }
+    .middle-content .logo{
+        justify-content: center;
+    }
  }
