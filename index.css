@@ -8,6 +8,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 h1{
     color: red;
@@ -39,8 +40,9 @@ nav a:hover{
     justify-content: flex-end;
 }
 header nav{
+    justify-content: center;
     display: flex;
-    gap: 0.5rem;
+    gap: 2rem;
 }
 header nav a{
     color: rgb(73, 72, 72);
@@ -91,7 +93,7 @@ button{
 
 .main-movie{
     width: 60%;
-    
+  
   
     
 
@@ -171,6 +173,7 @@ margin: 1rem;
  }
  /*footer*/
  footer{
+    margin: 2rem;
     display: flex;
     justify-content: space-between;
     gap: 1rem;
@@ -204,6 +207,12 @@ min-width: 120px;
  .middle-content .logo i{
     font-size: 1.5rem;
  }
+ .scroll-container {
+     /* Div elementinin yüksekliği */
+    overflow-y: auto; /* Dikey kaydırma çubuğu oluştur */
+  }
+
+
 
  @media (max-width:500px){
     header{
@@ -221,6 +230,7 @@ min-width: 120px;
         width: 90%;
     }
     footer{
+      
         flex-wrap: wrap;
        text-align: center;
     }
@@ -234,4 +244,5 @@ min-width: 120px;
     .middle-content .logo{
         justify-content: center;
     }
+   
  }
